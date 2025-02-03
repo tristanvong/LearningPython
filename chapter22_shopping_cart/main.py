@@ -22,5 +22,6 @@ for food in foods:
     else:
         products += food
 
+print("--- Your Cart: ---")
 print(f"You are buying the following products: {products}")
 print(f"Your total is {total}")
